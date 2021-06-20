@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz Css Ödev-1</title>
+    <link rel="stylesheet" href="MyCoolWebsite.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    
+    <div class="top-bar">
+        <div class="logo"><a href="https://www.kodluyoruz.org/" target="_blank">KODLUYORUZ  <i class="fas fa-envelope-open-text"></i></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                <li class="link"><a href="index.html">Anasayfa</a></li>
+                <li class="link"><a href="about-us.html">Hakkımızda</a></li>
+                <li class="link"><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+    </div>
+    <div class="banner">
+        <div class="banner-text">
+            <div class="banner-text-item">
+                <h2>CSS KULLANIMI</h2>
+                <h3>Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı</h3>
+                <p>CSS, web sitenizin ekranda nasıl görüneceğini belirleyen belirli stil kurallarına sahip dosyalardır. CSS kuralları, web sitenizin HTML dosyalarına çeşitli şekillerde ve yerlerde uygulanabilir. External yani harici bir stil sayfası, Internal yani dahili bir stil sayfası veya Inline yani satır içi stil kullanabilirsiniz. Her yöntemin belirli kullanımlara uygun avantajları vardır.</p>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="main-item">
+            <h2>EXTERNAL STIL</h2>
+            <P>External stil sayfası, bir web sayfasından bağlanan bağımsız bir  .css dosyasıdır. External stil sayfasının avantajı, bir kez oluşturulabilmesi ve birden çok web sayfasına uygulanabilmesidir. Site tasarımınızda geniş çaplı değişiklikler yapmanız gerekirse eğer, stil sayfasında tek bir değişiklik yapabilirsiniz ve bu değişiklik tüm bağlantılı sayfalara uygulanarak zamandan ve emekten tasarruf sağlar.</P>
+        </div>
+        <div class="main-item">
+            <h2>INTERNAL STIL</h2>
+            <P>Internal stil sayfası, HTML dosyasının <head> bölümünde sayfa için CSS kural kodlarını barındırır. Kural kodları yalnızca o sayfa için geçerlidir, ancak sayfa kodunda birden çok öğeye stil uygulamak için kullanılabilecek class ve id’leri yapılandırabilirsiniz. Yine, CSS kodunda yapılacak tek bir değişiklik, sayfadaki tüm etiketlenmiş öğelere uygulanacaktır.</P>
+        </div>
+        <div class="main-item">
+            <h2>INLINE STIL</h2>
+            <P>Inline stili, belirli bir sayfa öğesine stil vermek için, belirli bir HTML etiketi içinde kullanılır. Hızlı ve kalıcı değişiklikler için kullanışlıdırlar, ancak bir tasarım değişikliği yapmaya karar vermeniz durumunda, oluşturduğunuz her Inline stilin ayrı ayrı düzenlenmesi gerektiğinden, External ve Internal stil sayfalarından daha kullanışlı değildir ve diğerlerine göre çok fazla tercih edilmez.</P>
+        </div>
+    </main>
+    <section>
+        <div class="main-item">
+            <h2>BU SİTE KODLUYORUZ EĞİTİMİ ÇERÇEVESİNDE SADECE ÖDEV MAHİYETİNDE YAPILMIŞTIR. İÇERİK KONUSUNDA KODLUYORUZ.ORG ÜZERİNDEN FAYDALANILMIŞTIR. TİCARİ AMAÇ VE KAYGI BARINDIRMAMAKTADIR.</h2>
+        </div>
+    </section>
+    <div class="form-container">
+        <h2>Bize Ulaşın</h2>
+        <form action="#" class="form">
+        <input type="text" placeholder="Ad Soyad">
+        <input type="text" placeholder="E-Mail">
+        <textarea name="" placeholder="Mesaj" id="" cols="30" rows="10"></textarea>
+        <button>Gönder <i class="fas fa-arrow-alt-circle-up"></i></button>
+        </form>
+    </div>
+</body>
+</html>
